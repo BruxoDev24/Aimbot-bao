@@ -42,11 +42,9 @@ inicio:AddButton({
 inicio:AddButton({
 	Name = "Puxar Armas",
 	Callback = function()
-		for i,v in game.Players:GetDescendants() do 
-			if v:Isa("Tool") then
-				v.Parent = game.Players.LocalPlayer.Backpack
-			end
-		end
-		
-  	end    
+        for i, v in pairs(game:GetDescendants()) do
+            if v:IsA('Tool') then
+                v.Parent = game:GetService('Players').LocalPlayer.Backpack
+            end
+        end
 })
