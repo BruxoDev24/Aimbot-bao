@@ -39,6 +39,19 @@ inicio:AddButton({
   	end    
 })
 
+inicio:AddSlider({
+    Name = "Speed Jogador",
+    Min = 16,
+    Max = 500,
+    Default = 16,
+    Color = Color3.fromRGB(255,255,255),
+    Increment = 1,
+    ValueName = "Speed",
+    Callback = function(Value)
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+        end    
+})    
+
 inicio:AddButton({
 	Name = "Puxar Armas",
 	Callback = function()
