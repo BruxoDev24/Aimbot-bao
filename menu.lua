@@ -17,9 +17,9 @@ local armas = Window:MakeTab({
 	PremiumOnly = false
 })
 
-local armas = Window:MakeTab({
+local destruicao = Window:MakeTab({
 	Name = "Destruição",
-	Icon = "rbxassetid://6703959315",
+	Icon = "rbxassetid://7120897394",
 	PremiumOnly = false
 })
 
