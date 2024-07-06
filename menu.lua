@@ -17,6 +17,12 @@ local armas = Window:MakeTab({
 	PremiumOnly = false
 })
 
+local armas = Window:MakeTab({
+	Name = "Destruição",
+	Icon = "rbxassetid://6703959315",
+	PremiumOnly = false
+})
+
 local Section = armas:AddSection({
 	Name = "Aimbot"
 })
