@@ -18,8 +18,8 @@ local armas = Window:MakeTab({
 })
 
 local destruicao = Window:MakeTab({
-	Name = "Destruição",
-	Icon = "rbxassetid://7120897394",
+	Name = "Demolição",
+	Icon = "rbxassetid://14511996964",
 	PremiumOnly = false
 })
 
@@ -31,6 +31,13 @@ armas:AddButton({
 	Name = "Aimbot (Só executar e jogar)",
 	Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Aimbot-V2/main/Resources/Scripts/Main.lua"))()
+  	end    
+})
+
+armas:AddButton({
+	Name = "Box Esp",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/BruxoDev24/Bruxo-Menu/main/boxesp.lua"))()
   	end    
 })
 
