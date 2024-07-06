@@ -7,13 +7,13 @@ local Window = OrionLib:MakeWindow({Name = "🧙 Bruxo Menu 🧙", HidePremium =
 
 local inicio = Window:MakeTab({
 	Name = "Jogador",
-	Icon = "rbxassetid://4483345998",
+	Icon = "rbxassetid://13687632207",
 	PremiumOnly = false
 })
 
 local armas = Window:MakeTab({
 	Name = "Arma",
-	Icon = "rbxassetid://14511894009",
+	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
