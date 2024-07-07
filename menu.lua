@@ -34,13 +34,6 @@ armas:AddButton({
   	end    
 })
 
-armas:AddButton({
-	Name = "Box Esp",
-	Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/BruxoDev24/Bruxo-Menu/main/boxesp.lua"))()
-  	end    
-})
-
 local Section = inicio:AddSection({
 	Name = "Funções Geral do player"
 })
